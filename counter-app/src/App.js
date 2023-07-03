@@ -4,6 +4,7 @@ import { actions } from "./store/index";
 
 function App() {
   const counter = useSelector((state) => state.counter);
+  
   const dispatch = useDispatch();
   const increment = () => {
     // dispatch(actions.increment(1));
